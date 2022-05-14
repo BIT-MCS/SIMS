@@ -30,7 +30,7 @@ You could adapt it to your own needs.
 	[17]  torch.backends.cuda.matmul.allow_tf32 = False
 	[18]  torch.backends.cudnn.allow_tf32 = False
 	```
-2. You can modify the config files 
+2. You can modify the config file 
 [SIMS/conf.py](https://github.com/BIT-MCS/SIMS/blob/main/conf.py) for model training.<br>
 For example, you can control the size of RNN in the model by modifying this line
 	```
