@@ -1,7 +1,10 @@
 # SIMS
 Additional materials for paper "Modeling User Interests With Online Social Network Influence by Memory Augmented Sequence Learning" accepted by TNSE 2021.
 ## :page_facing_up: Description
-FD-MAPPO (Cubic Map) is a novel deep reinforcement learning (DRL) framework for human-drone collaborative SC tasks. It consists of a fully decentralized MADRL framework, called FD-MAPPO, as a novel multi-actor-multi-learner architecture without any centralized control module based on PPO. It also contains a novel memory structure, called Cubic Map, to enable novel sparse cubic writing and contextual attentive reading operations.
+SIMS is a novel social-based sequence learning model for predicting the types of items/PoIs that a user will likely buy/visit next.
+Specifically, SIMS leverages the sequence-to-sequence learning method to learn a representation for each user sequence.
+Moreover, an autoencoder-based model was proposed to learn social influence, which is integrated into SIMS for predicting user interests.
+In addition, SIMS employs DNC to further improve prediction accuracy.
 ## :wrench: Dependencies
 - Python == 3.7 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html))
 - [PyTorch == 1.8.1](https://pytorch.org/)
@@ -9,8 +12,8 @@ FD-MAPPO (Cubic Map) is a novel deep reinforcement learning (DRL) framework for 
 ### Installation
 1. Clone repo
     ```bash
-    git clone https://github.com/BIT-MCS/human_drone_SC.git
-    cd human_drone_SC
+    git clone https://github.com/BIT-MCS/SIMS.git
+    cd SIMS
     ```
 2. Install dependent packages
     ```
