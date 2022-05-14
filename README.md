@@ -1,5 +1,5 @@
 # SIMS
-Additional materials for paper "Modeling User Interests With Online Social Network Influence by Memory Augmented Sequence Learning" submitted to TNSE 2021.
+Additional materials for paper "Modeling User Interests With Online Social Network Influence by Memory Augmented Sequence Learning" accepted by TNSE 2021.
 ## :page_facing_up: Description
 FD-MAPPO (Cubic Map) is a novel deep reinforcement learning (DRL) framework for human-drone collaborative SC tasks. It consists of a fully decentralized MADRL framework, called FD-MAPPO, as a novel multi-actor-multi-learner architecture without any centralized control module based on PPO. It also contains a novel memory structure, called Cubic Map, to enable novel sparse cubic writing and contextual attentive reading operations.
 ## :wrench: Dependencies
