@@ -25,13 +25,13 @@ We provide complete training codes for SIMS.<br>
 You could adapt it to your own needs.
 
 1. If you don't have NVIDIA RTX 3090, you should comment these two lines in file
-[SIMS/main.py](https://github.com/BIT-MCS/SIMS/main.py).
+[SIMS/main.py](https://github.com/BIT-MCS/SIMS/blob/main/main.py).
 	```
 	[17]  torch.backends.cuda.matmul.allow_tf32 = False
 	[18]  torch.backends.cudnn.allow_tf32 = False
 	```
 2. You can modify the config files 
-[SIMS/conf.py](https://github.com/BIT-MCS/SIMS/conf.py) for model training.<br>
+[SIMS/conf.py](https://github.com/BIT-MCS/SIMS/blob/main/conf.py) for model training.<br>
 For example, you can control the size of RNN in the model by modifying this line
 	```
 	[8]  'rnn_size': 128,
