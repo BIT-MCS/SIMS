@@ -51,3 +51,18 @@ For example, you can control the size of RNN in the model by modifying this line
 ## :e-mail: Contact
 
 If you have any question, please email `2656886245@qq.com`.
+## Paper
+If you are interested in our work, please cite our paper as
+
+```
+@ARTICLE{9294053,
+  author={Wang, Yu and Piao, Chengzhe and Liu, Chi Harold and Zhou, Chijin and Tang, Jian},
+  journal={IEEE Transactions on Network Science and Engineering}, 
+  title={Modeling User Interests With Online Social Network Influence by Memory Augmented Sequence Learning}, 
+  year={2021},
+  volume={8},
+  number={1},
+  pages={541-554},
+  doi={10.1109/TNSE.2020.3044964}
+}
+```
