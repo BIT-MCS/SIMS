@@ -1,5 +1,5 @@
 # SIMS
-Additional materials for paper "Modeling User Interests With Online Social Network Influence by Memory Augmented Sequence Learning" accepted by TNSE 2021.
+This work "Modeling User Interests With Online Social Network Influence by Memory Augmented Sequence Learning" has been published in TNSE 2021.
 ## :page_facing_up: Description
 SIMS is a novel social-based sequence learning model for predicting the types of items/PoIs that a user will likely buy/visit next.
 Specifically, SIMS leverages the sequence-to-sequence learning method to learn a representation for each user sequence.
